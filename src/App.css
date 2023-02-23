@@ -1,34 +1,126 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  padding: 15px;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  min-height: 50px;
   font-size: calc(10px + 2vmin);
+  color: white;
+  border-radius: 15px 15px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-main {
+  /* background-color: rgb(169, 181, 233); */
+  background-image: linear-gradient(180deg, #cbffdc 0, #baffdc 16.67%, #abffda 33.33%, #9df2d5 50%, #92e3cf 66.67%, #89d5c9 83.33%, #83c9c4 100%);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 15px;
+  /* height: 90vh; */
+}
+
+.container-pokemon {
+  /* background-color: rgb(162, 137, 231); */
+  background-image: linear-gradient(180deg, #cdc3ff 0, #9d9df2 50%, #7278b7 100%);
+  border-radius: 15px;
+  display: flex;
+  padding: 10px;
+  box-shadow: 10px 10px 5px rgb(108, 91, 119);
+}
+
+.nombre {
+  font-size: 18px;
+}
+
+.id {
+  margin: 0;
+}
+
+.imagen {
+  width: 150px;
+  cursor: pointer;
+  /* background-color: salmon;
+  border-radius: 100%; */
+}
+
+
+
+.container-search {
+  background-color: #244077;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.container-button {
+  display: flex;
+}
+
+.button-change {
+  /* width: 100px;
+  height: 50px;
+  border-radius: 15px;
+  border: 1px solid black; */
+  border: none;
+}
+
+.prev {
+  /* background-color: rgb(227, 164, 240); */
+  background-color: #244077;
+  color: white;
+  margin-right: 5px;
+}
+
+.next {
+  /* background-color: rgb(143, 238, 143); */
+  background-color: #244077;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.search {
+  display: flex;
 }
 
-@keyframes App-logo-spin {
+.input-search {
+  width: 300px;
+  border-radius: 15px 0 0 15px;
+  border: 1px solid gray;
+}
+
+.button-search {
+  width: 50px;
+  border-radius: 0 15px 15px 0;
+  border: 1px solid gray;
+  border-left: none;
+}
+
+.logo {
+  width: 50px;
+}
+
+.logo2 {
+  height: 20px;
+  pointer-events: none;
+}
+
+footer {
+  background-color: #244077;
+  color: white;
+  border-radius: 0 0 15px 15px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo2 {
+    animation: logo2-spin infinite 20s linear;
+  }
+}
+
+@keyframes logo2-spin {
   from {
     transform: rotate(0deg);
   }

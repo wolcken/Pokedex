@@ -1,0 +1,49 @@
+.black {
+    border-radius: 25px;
+    background-image: linear-gradient(180deg, #154744 0, #124748 6.25%, #10474b 12.5%, #0f474e 18.75%, #0f4751 25%, #124653 31.25%, #154556 37.5%, #1a4558 43.75%, #1f4459 50%, #24435a 56.25%, #2a425b 62.5%, #2f415b 68.75%, #35405a 75%, #3a3f5a 81.25%, #3f3d58 87.5%, #433c57 93.75%, #483b55 100%);
+}
+
+.green {
+    border-radius: 25px;
+    background-image: linear-gradient(180deg, #fdffa0 0, #e6ff9f 16.67%, #d0ff9f 33.33%, #b9f29d 50%, #a4e49b 66.67%, #92d89a 83.33%, #82cd99 100%);
+}
+
+.red {
+    border-radius: 25px;
+    background-image: radial-gradient(circle at 50% -20.71%, #e6f58f 0, #e9eb7f 10%, #ecdf6e 20%, #efd25d 30%, #f1c44d 40%, #f2b53c 50%, #f3a52d 60%, #f59522 70%, #f8851d 80%, #fa741e 90%, #fc6324 100%);
+}
+
+.blue {
+    border-radius: 25px;
+    background-image: radial-gradient(circle at 50% -20.71%, #faffff 0, #d8f0fa 25%, #b5def2 50%, #92cbeb 75%, #72b9e5 100%);
+}
+
+.white {
+    border-radius: 25px;
+    background-image: radial-gradient(circle at 50% -20.71%, #ffe7d5 0, #ffe8d2 6.25%, #ffe9cf 12.5%, #ffebce 18.75%, #ffeccc 25%, #ffeecb 31.25%, #fcefcb 37.5%, #f7f1cc 43.75%, #f2f2cd 50%, #edf3cf 56.25%, #e7f5d1 62.5%, #e2f6d4 68.75%, #ddf7d7 75%, #d8f8db 81.25%, #d3f9df 87.5%, #cff9e3 93.75%, #cbfae8 100%);
+}
+
+.brown {
+    border-radius: 25px;
+    background-image: linear-gradient(180deg, #ffe1aa 0, #ffd4a7 16.67%, #ffc7a2 33.33%, #f2b99d 50%, #e1ac97 66.67%, #d1a092 83.33%, #c2968d 100%);
+}
+
+.yellow {
+    border-radius: 25px;
+    background-image: radial-gradient(circle at 50% -20.71%, #fffff3 0, #ffffdf 16.67%, #fffeca 33.33%, #f2f2b5 50%, #dce7a1 66.67%, #c6dd91 83.33%, #aed484 100%);
+}
+
+.purple {
+    border-radius: 25px;
+    background-image: linear-gradient(180deg, #ffbaff 0, #f7acff 25%, #d59df2 50%, #b58eda 75%, #997fc4 100%);
+}
+
+.pink {
+    border-radius: 25px;
+    background-image: radial-gradient(circle at 50% -20.71%, #d6d4f1 0, #dad3ef 6.25%, #dfd2ed 12.5%, #e3d0ea 18.75%, #e7cfe8 25%, #eacfe4 31.25%, #edcee1 37.5%, #f0cdde 43.75%, #f2cdda 50%, #f4cdd6 56.25%, #f5cdd3 62.5%, #f5cdcf 68.75%, #f5cdcb 75%, #f5cec8 81.25%, #f4cec5 87.5%, #f3cfc2 93.75%, #f1d0c0 100%);
+}
+
+.gray {
+    border-radius: 25px;
+    background-image: radial-gradient(circle at 50% -20.71%, #edf3ff 0, #b5c9f2 50%, #79a1e2 100%);
+}

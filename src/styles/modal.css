@@ -1,0 +1,71 @@
+.container-body-modal {
+    border-radius: 15px;
+    background-image: radial-gradient(circle at 50% -20.71%, #ffdfda 0, #ffdfd8 6.25%, #ffe0d5 12.5%, #ffe1d3 18.75%, #fee2d1 25%, #fbe3cf 31.25%, #f8e4ce 37.5%, #f5e5cd 43.75%, #f2e6cd 50%, #eee7cd 56.25%, #ebe8ce 62.5%, #e7e9cf 68.75%, #e3ead0 75%, #dfebd2 81.25%, #dcecd4 87.5%, #d8edd7 93.75%, #d5edda 100%);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 10px;
+    margin: 0;
+    border: 5px solid salmon;
+}
+
+.title-modal {
+    color: gray;
+}
+
+.perfil {
+    padding-right: 10px;
+    width: 50%;
+}
+
+.details {
+    width: 50%;
+}
+
+.imagen-modal {
+    width: 100%;
+}
+
+.name-modal {
+    margin-bottom: 20px;
+    text-align: center;
+    color: darkslateblue;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-stat {
+    margin-bottom: 10px;
+}
+
+.stat-name {
+    font-weight: 500;
+    color: darkgreen;
+}
+
+.abilities {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.ability-name {
+    margin-left: 10px;
+}
+
+.text-detail {
+    font-size: 12px;
+    color: rgb(26, 25, 25);
+}
+
+.information {
+    margin-top: 5px;
+}
+
+.container-body-modal h5 {
+    color: darkslateblue;
+}
