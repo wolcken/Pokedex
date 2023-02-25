@@ -15,17 +15,14 @@
 }
 
 .App-main {
-  /* background-color: rgb(169, 181, 233); */
   background-image: linear-gradient(180deg, #cbffdc 0, #baffdc 16.67%, #abffda 33.33%, #9df2d5 50%, #92e3cf 66.67%, #89d5c9 83.33%, #83c9c4 100%);
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   padding: 15px;
-  /* height: 90vh; */
 }
 
 .container-pokemon {
-  /* background-color: rgb(162, 137, 231); */
   background-image: linear-gradient(180deg, #cdc3ff 0, #9d9df2 50%, #7278b7 100%);
   border-radius: 15px;
   display: flex;
@@ -44,8 +41,6 @@
 .imagen {
   width: 150px;
   cursor: pointer;
-  /* background-color: salmon;
-  border-radius: 100%; */
 }
 
 
@@ -62,22 +57,16 @@
 }
 
 .button-change {
-  /* width: 100px;
-  height: 50px;
-  border-radius: 15px;
-  border: 1px solid black; */
   border: none;
 }
 
 .prev {
-  /* background-color: rgb(227, 164, 240); */
   background-color: #244077;
   color: white;
   margin-right: 5px;
 }
 
 .next {
-  /* background-color: rgb(143, 238, 143); */
   background-color: #244077;
   color: white;
 }
@@ -126,5 +115,24 @@ footer {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width:420px) {
+  
+  .App {
+    padding: 5px;
+  }
+
+  .container-pokemon {
+    padding: 5px;
+  }
+
+  .search {
+    width: 20%;
+  }
+
+  .logo {
+    display: none;
   }
 }
